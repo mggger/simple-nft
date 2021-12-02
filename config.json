@@ -1,0 +1,19 @@
+{
+  "main": "./contracts/nft1.0/CFXBJGENESIS.sol",
+  "deploy": "./build/contracts/CFXBJGENESIS.json",
+  "framework": "cfxtruffle-docker",
+  "compilers": {
+    "cfxtruffle": "1.0.2",
+    "solc": "0.6.12",
+    "evmVersion": "istanbul",
+    "optimizer": {
+      "enabled": false
+    }
+  },
+  "linter": "solhint",
+  "editor": {
+    "fontFamily": "Hack",
+    "fontSize": "13px",
+    "ligatures": false
+  }
+}
